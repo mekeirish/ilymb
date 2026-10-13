@@ -1,7 +1,9 @@
 {
+  "id": "/ilymb/",
   "name": "ilymb",
   "short_name": "ilymb",
-  "start_url": "./index.html",
+  "start_url": "/ilymb/index.html",
+  "scope": "/ilymb/",
   "display": "standalone",
   "background_color": "#1a1c20",
   "theme_color": "#4b6cb7",
@@ -10,7 +12,13 @@
       "src": "icon.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
+    },
+    {
+      "src": "icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
     }
   ]
 }
